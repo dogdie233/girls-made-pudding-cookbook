@@ -1,0 +1,474 @@
+{
+  "foods": [
+    {
+      "id": "food00",
+      "category": "milk",
+      "pathId": "8183971689775969773"
+    },
+    {
+      "id": "food01",
+      "category": "egg",
+      "pathId": "3134419639593145210"
+    },
+    {
+      "id": "food02",
+      "category": "meat",
+      "pathId": "3164671300034920409"
+    },
+    {
+      "id": "food03",
+      "category": "fish",
+      "pathId": "-3342693914053911021"
+    },
+    {
+      "id": "food04",
+      "category": "fish",
+      "pathId": "-3342693914053911021"
+    },
+    {
+      "id": "food05",
+      "category": "fish",
+      "pathId": "-3342693914053911021"
+    },
+    {
+      "id": "food06",
+      "category": "vegetable",
+      "pathId": "3820558491445693087"
+    },
+    {
+      "id": "food07",
+      "category": "vegetable",
+      "pathId": "-1595789967292917449"
+    },
+    {
+      "id": "food08",
+      "category": "vegetable",
+      "pathId": "-7423985791601213214"
+    },
+    {
+      "id": "food09",
+      "category": "grain",
+      "pathId": "4081619122001573804"
+    },
+    {
+      "id": "food10",
+      "category": "grain",
+      "pathId": "-5362991827279445569"
+    },
+    {
+      "id": "food11",
+      "category": "seasoning",
+      "pathId": "2739769333802006277"
+    },
+    {
+      "id": "food12",
+      "category": "sweets",
+      "pathId": "2739769333802006277"
+    },
+    {
+      "id": "food13",
+      "category": "sweets",
+      "pathId": "3029083689340292029"
+    },
+    {
+      "id": "food14",
+      "category": "sweets",
+      "pathId": "2739769333802006277"
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool00",
+      "pathId": "-3839735953371775083"
+    },
+    {
+      "id": "tool01",
+      "pathId": "5363713035242150324"
+    },
+    {
+      "id": "tool02",
+      "pathId": "7247516695831251318"
+    },
+    {
+      "id": "tool03",
+      "pathId": "1814879962217781155"
+    },
+    {
+      "id": "tool04",
+      "pathId": "5975445198066373680"
+    },
+    {
+      "id": "tool05",
+      "pathId": "7315327625001109411"
+    },
+    {
+      "id": "tool06",
+      "pathId": "2787513555009374183"
+    },
+    {
+      "id": "tool07",
+      "pathId": "6718230359775892246"
+    },
+    {
+      "id": "tool08",
+      "pathId": "-2255350978364603362"
+    },
+    {
+      "id": "tool10",
+      "pathId": "3667332456210314726"
+    },
+    {
+      "id": "tool11",
+      "pathId": "3667332456210314726"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cooking14",
+      "priority": 0,
+      "category": "cooking-sweets",
+      "tool": "tool08",
+      "ingredients": [
+        "food00",
+        "food01",
+        "food12"
+      ],
+      "pathId": "4613258505038240984"
+    },
+    {
+      "id": "cooking09",
+      "priority": 1,
+      "category": "cooking-grain",
+      "tool": "tool01",
+      "ingredients": [
+        "food10",
+        "<meat>|<vegetable>|<fish>",
+        "<meat>|<vegetable>|<fish>"
+      ],
+      "pathId": "-1654100614621058494"
+    },
+    {
+      "id": "cooking05",
+      "priority": 30,
+      "category": "cooking-grain",
+      "tool": "tool01",
+      "ingredients": [
+        "food10",
+        "food01",
+        "<meat>|<vegetable>|<fish>"
+      ],
+      "pathId": "7582050420437471240"
+    },
+    {
+      "id": "cooking23",
+      "priority": 99,
+      "category": "cooking-sweets",
+      "tool": "tool01",
+      "ingredients": [
+        "food00",
+        "food01",
+        "food10"
+      ],
+      "pathId": "-8368146317136337528"
+    },
+    {
+      "id": "cooking25",
+      "priority": 99,
+      "category": "cooking-grain",
+      "tool": "tool05",
+      "ingredients": [
+        "food10",
+        "food10",
+        "food13"
+      ],
+      "pathId": "-6344177394905997632"
+    },
+    {
+      "id": "cooking28",
+      "priority": 99,
+      "category": "cooking-grain",
+      "tool": "tool05",
+      "ingredients": [
+        "food10",
+        "food10",
+        "food14"
+      ],
+      "pathId": "7730513377028970977"
+    },
+    {
+      "id": "cooking10",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool05",
+      "ingredients": [
+        "food00",
+        "food01"
+      ],
+      "pathId": "4633809430521753885"
+    },
+    {
+      "id": "cooking11",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool05",
+      "ingredients": [
+        "food10",
+        "food12"
+      ],
+      "pathId": "-965034402046221532"
+    },
+    {
+      "id": "cooking12",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool06",
+      "ingredients": [
+        "food10",
+        "food14"
+      ],
+      "pathId": "-7542306606508933980"
+    },
+    {
+      "id": "cooking13",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool05",
+      "ingredients": [
+        "food10",
+        "food01"
+      ],
+      "pathId": "-1076912139150631660"
+    },
+    {
+      "id": "cooking15",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool07",
+      "ingredients": [
+        "food10",
+        "food13"
+      ],
+      "pathId": "-4288434340525706949"
+    },
+    {
+      "id": "cooking16",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool04",
+      "ingredients": [
+        "food09",
+        "food13"
+      ],
+      "pathId": "-2758967866920777675"
+    },
+    {
+      "id": "cooking18",
+      "priority": 100,
+      "category": "cooking-egg",
+      "tool": "tool01",
+      "ingredients": [
+        "food01",
+        "food01"
+      ],
+      "pathId": "4178680916925987703"
+    },
+    {
+      "id": "cooking19",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool03",
+      "ingredients": [
+        "food12",
+        "food12"
+      ],
+      "pathId": "-8878100481259519202"
+    },
+    {
+      "id": "cooking20",
+      "priority": 100,
+      "category": "cooking-milk",
+      "tool": "tool03",
+      "ingredients": [
+        "food00",
+        "food00"
+      ],
+      "pathId": "-2684156003129268887"
+    },
+    {
+      "id": "cooking21",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool03",
+      "ingredients": [
+        "food13",
+        "food13"
+      ],
+      "pathId": "-8010543101105656228"
+    },
+    {
+      "id": "cooking22",
+      "priority": 100,
+      "category": "cooking-grain",
+      "tool": "tool05",
+      "ingredients": [
+        "food10",
+        "food10"
+      ],
+      "pathId": "8645073640744484598"
+    },
+    {
+      "id": "cooking24",
+      "priority": 100,
+      "category": "cooking-milk",
+      "tool": "tool03",
+      "ingredients": [
+        "food10",
+        "food00"
+      ],
+      "pathId": "-6688572295465278263"
+    },
+    {
+      "id": "cooking26",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool01",
+      "ingredients": [
+        "food14",
+        "food14"
+      ],
+      "pathId": "6317688799344256250"
+    },
+    {
+      "id": "cooking27",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool01",
+      "ingredients": [
+        "food14",
+        "food00"
+      ],
+      "pathId": "-3584081427611553508"
+    },
+    {
+      "id": "cooking29",
+      "priority": 100,
+      "category": "cooking-grain",
+      "tool": "tool03",
+      "ingredients": [
+        "food02",
+        "food06"
+      ],
+      "pathId": "9154611993972919993"
+    },
+    {
+      "id": "cooking30",
+      "priority": 100,
+      "category": "cooking-sweets",
+      "tool": "tool05",
+      "ingredients": [
+        "food12",
+        "food01"
+      ],
+      "pathId": "3456614587578051372"
+    },
+    {
+      "id": "cooking02",
+      "priority": 130,
+      "category": "cooking-seasoning",
+      "tool": "tool03",
+      "ingredients": [
+        "food11",
+        "<any>"
+      ],
+      "pathId": "3572424844837855735"
+    },
+    {
+      "id": "cooking07",
+      "priority": 130,
+      "category": "cooking-grain",
+      "tool": "tool04",
+      "ingredients": [
+        "food09",
+        "<fish>"
+      ],
+      "pathId": "4066508417210387473"
+    },
+    {
+      "id": "cooking08",
+      "priority": 130,
+      "category": "cooking-grain",
+      "tool": "tool01",
+      "ingredients": [
+        "food09",
+        "food01"
+      ],
+      "pathId": "8916697834154723311"
+    },
+    {
+      "id": "cooking04",
+      "priority": 140,
+      "category": "cooking-grain",
+      "tool": "tool03",
+      "ingredients": [
+        "food10",
+        "<meat>|<vegetable>|<fish>"
+      ],
+      "pathId": "1180374832685697603"
+    },
+    {
+      "id": "cooking06",
+      "priority": 140,
+      "category": "cooking-grain",
+      "tool": "tool04",
+      "ingredients": [
+        "food09",
+        "<any>"
+      ],
+      "pathId": "-1599246981655428784"
+    },
+    {
+      "id": "cooking00",
+      "priority": 149,
+      "category": "cooking-meat",
+      "tool": "tool01",
+      "ingredients": [
+        "food02",
+        "<any>"
+      ],
+      "pathId": "-5634090663335548786"
+    },
+    {
+      "id": "cooking01",
+      "priority": 150,
+      "category": "cooking-fish",
+      "tool": "tool00",
+      "ingredients": [
+        "<fish>",
+        "<any>"
+      ],
+      "pathId": "-4720338464584098815"
+    },
+    {
+      "id": "cooking03",
+      "priority": 150,
+      "category": "cooking-vegetable",
+      "tool": "tool02",
+      "ingredients": [
+        "<vegetable>",
+        "<any>"
+      ],
+      "pathId": "-3383856614539451399"
+    },
+    {
+      "id": "cooking17",
+      "priority": 999,
+      "category": "cooking-failed",
+      "tool": "tool00",
+      "ingredients": [
+        "<any>",
+        "<any>"
+      ],
+      "pathId": "6117924031522384335"
+    }
+  ]
+}
